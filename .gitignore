@@ -1,0 +1,29 @@
+# ===== Python / Django =====
+venv/
+**/venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===== Environment Variables =====
+.env
+*.env
+
+# ===== Node / React =====
+node_modules/
+**/node_modules/
+dist/
+build/
+
+# ===== Django Database (可选) =====
+*.sqlite3
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+
+# ===== IDE =====
+.vscode/
+.idea/
